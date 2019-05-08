@@ -1,0 +1,117 @@
+
+  <div>
+    <mat-card-header>
+      <mat-card-title>Personal Info</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <div class="person-info-block">
+        <div>Address</div>
+        <p>
+          Strunkovice n/Bl., Hřbitovní 184, 384 26
+        </p>
+        <p>
+          Czech Republic
+        </p>
+      </div>
+
+      <div class="person-info-block">
+        <div>Phone</div>
+        <p>
+          +420 732 228 385
+        </p>
+      </div>
+
+      <div class="person-info-block">
+        <div>E-mail</div>
+        <p>
+          jiri.holubcz[at]gmail.com
+        </p>
+      </div>
+
+      <div class="person-info-block">
+        <div>GitHub</div>
+        <p>
+          <a href="https://github.com/jHolub/" target="_blank">
+            https://github.com/jHolub/
+          </a>
+        </p>
+      </div>
+
+      <div class="person-info-block">
+        <div>LinkedIn</div>
+        <p>
+          <a href="https://linkedin.com/in/jirka-holub-925ab814b" target="_blank">
+            https://linkedin.com/in/jirka-holub-925ab814b
+          </a>
+        </p>
+      </div>
+    </mat-card-content>
+  </div>
+  <div>
+    <mat-card-header>
+      <mat-card-title>Programming Skills</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content fxLayout="row">
+      <mat-list fxFlex="50">
+        <mat-list-item>Ext JS, JavaScript, jQuery</mat-list-item>
+        <mat-list-item>Angular 2+, React JS, NGXS, RxJS</mat-list-item>
+        <mat-list-item>PHP, Symfony</mat-list-item>
+        <mat-list-item>Java, Python, R</mat-list-item>
+        <mat-list-item>PostgreSQL, MS-SQL</mat-list-item>
+        <mat-list-item>Git, npm, Visual Studio</mat-list-item>
+      </mat-list>
+      <mat-list fxFlex="50">
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 1, 1, 1, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i>
+        </mat-list-item>
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 1, 1, 0, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i>
+        </mat-list-item>
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 1, 1, 0, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i></mat-list-item
+        >
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 0, 0, 0, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i>
+        </mat-list-item>
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 1, 0, 0, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </div>
+  <div>
+    <mat-card-header>
+      <mat-card-title>Languages</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content fxLayout="row">
+      <mat-list fxFlex="50">
+        <mat-list-item>English</mat-list-item>
+        <mat-list-item>German</mat-list-item>
+      </mat-list>
+      <mat-list fxFlex="50">
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 1, 1, 0, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i>
+        </mat-list-item>
+        <mat-list-item>
+          <i class="material-icons" *ngFor="let star of [1, 0, 0, 0, 0]">
+            {{ star ? "lens" : "panorama_fish_eye" }}
+          </i>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </div>

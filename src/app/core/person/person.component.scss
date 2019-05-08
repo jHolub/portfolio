@@ -1,0 +1,41 @@
+header {
+  background: #3f51b5;
+}
+
+.header-section {
+  color: white;
+  padding: 15px;
+}
+
+.mat-card-avatar {
+  height: 100px;
+  width: 100px;
+}
+
+h1,
+h2 {
+  font-weight: 100 !important;
+  line-height: 25px;
+  margin: 15px 0 15px;
+}
+
+h2 {
+  color: #fafafa;
+}
+
+.left-side-panel {
+  background-color: #fafafa;
+}
+
+.cont-chapter{
+  padding: 0px 16px 0px 16px;
+}
+
+mat-list-item {
+  font-size: 14px !important;
+}
+
+footer{
+  margin-top: 4px; 
+  height: 100%;
+}

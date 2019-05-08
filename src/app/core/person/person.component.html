@@ -1,0 +1,178 @@
+<header>
+  <div class="header-section">
+    <mat-card-header>
+      <img mat-card-avatar src="../../../assets/avatar.png" />
+      <mat-card-title
+        ><br />
+        <h1>Jiří Holub</h1></mat-card-title
+      >
+      <mat-card-subtitle><h2>Full Stack Developer</h2></mat-card-subtitle>
+    </mat-card-header>
+  </div>
+</header>
+
+<div fxLayout="row" fxLayout.lt-sm="column">
+  <mat-card fxFlex fxLayout="column">
+    <div>
+      <mat-card-header>
+        <mat-card-subtitle>About me</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content class="cont-chapter">
+        <p style="font-size: 16px">
+          Full Stack programmer with 6+ years experiences developing and
+          maintaining software applications. Designed a develop a lot of
+          advanced application in particular agricultural, environment and
+          related subjects with special focus on web mapping apps. Programmer
+          enthusiast pursuing to study a bit of knowledge every day.
+        </p>
+      </mat-card-content>
+    </div>
+    <div>
+      <mat-card-header>
+        <mat-card-title>Experience</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content class="cont-chapter">
+        <div fxLayout="row" fxLayoutGap="10px">
+          <div fxFlex>
+            2012-04 - present
+          </div>
+          <div fxFlex="80">
+            <b>Full Stack developer of web mapping technology</b>, VUMOP, v.v.i.
+            in Czech (https://www.vumop.cz/)
+            <ul>
+              <li>Design and develop over 10 application projects.</li>
+              <li>A corporation with the team members.</li>
+              <li>
+                Service and maintaining the existing application projects.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div fxLayout="row" fxLayoutGap="10px">
+          <div fxFlex>
+            2019-01 - 2019-03
+          </div>
+          <div fxFlex="80">
+            <b> Front End developer</b>, CleverFarm, a.s., Prague
+            (https://www.cleverfarm.cz/)
+            <ul>
+              <li>Front End development of the Clever Farm application.</li>
+              <li>
+                Makes test program by using unit testing looking for bugs
+                (errors).
+              </li>
+              <li>A corporation with the Scrum Development Team.</li>
+            </ul>
+          </div>
+        </div>
+      </mat-card-content>
+    </div>
+    <div>
+      <mat-card-header>
+        <mat-card-title>Main Projects</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content class="cont-chapter">
+        <div fxLayout="row">
+          <div fxFlex>
+            2013 - 2015
+          </div>
+          <div fxFlex="80">
+            RESTEP (<a href="https://restep.vumop.cz" target="_blank"
+              >https://restep.vumop.cz</a
+            >>)
+            <ul>
+              <li>
+                About: The goal of the project was to make, introduce in
+                practice, test, evaluate and distribute within the framework of
+                the public administration and the business sector a new
+                comprehensive method for urban management and regional planning
+                in the field of proposing and assessing energy projects.
+              </li>
+              <li>Technology: OOP PHP, MVC framework, JQuery, CSS</li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div fxLayout="row">
+          <div fxFlex>
+            2015 - 2017
+          </div>
+          <div fxFlex="80">
+            Erosion calculator (<a
+              href="https://kalkulacka.vumop.cz"
+              target="_blank"
+              >https://kalkulacka.vumop.cz</a
+            >>)
+            <ul>
+              <li>
+                About: Web application for support of decision in soil erosion
+                protection. The application provides users information about the
+                erosion risk of the farm sites.
+              </li>
+              <li>Technology: Symfony, Ext JS, GeoExt, OpenLayers</li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div fxLayout="row">
+          <div fxFlex>
+            2018 - 2019
+          </div>
+          <div fxFlex="80">
+            Monitoring of soil erosion (<a
+              href="https://me.vumop.cz"
+              target="_blank"
+              >https://me.vumop.cz</a
+            >>)
+            <ul>
+              <li>
+                About: The application for monitoring agricultural soil erosion,
+                which is used to report, record and evaluate individual erosion
+                incidents. The aim of erosion monitoring is to provide relevant
+                evidence on the extent of the problem of erosion of agricultural
+                land.
+              </li>
+              <li>Technology: Silex, Ext JS, Angular 7, Material Design</li>
+            </ul>
+          </div>
+        </div>
+      </mat-card-content>
+    </div>
+    <div>
+      <mat-card-header>
+        <mat-card-title>Education</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content class="cont-chapter">
+        <div fxLayout="row">
+          <div fxFlex>
+            2010 - 2012
+          </div>
+          <div fxFlex="80">
+            Environmental Modelling - master degree study program, Czech
+            University of Life Sciences Prague
+          </div>
+        </div>
+        <br />
+        <div fxLayout="row">
+          <div fxFlex>
+            2012 - present
+          </div>
+          <div fxFlex="80">
+            Environmental Modelling - Ph.D. Programmes, Czech University of Life
+            Sciences Prague
+          </div>
+        </div>
+      </mat-card-content>
+    </div>
+  </mat-card>
+  <mat-card fxFlex.lt-md="50" fxFlex="35" class="left-side-panel" fxLayout="column">
+    <app-info></app-info>
+  </mat-card>
+</div>
+
+<footer id="map"></footer>
