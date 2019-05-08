@@ -53,7 +53,7 @@ export class PersonComponent implements OnInit {
           anchor: [0.5, 36],
           anchorXUnits: "fraction",
           anchorYUnits: "pixels",
-          src: "../../../assets/place.png"
+          src: "assets/place.png"
         })
       }),
       source: new VectorSource({
