@@ -1,117 +1,142 @@
+<div>
+  <mat-card-header>
+    <mat-card-title>Personal Info</mat-card-title>
+  </mat-card-header>
 
-  <div>
-    <mat-card-header>
-      <mat-card-title>Personal Info</mat-card-title>
-    </mat-card-header>
-
-    <mat-card-content>
-      <div class="person-info-block">
-        <div>Address</div>
-        <p>
-          Strunkovice n/Bl., Hřbitovní 184, 384 26
-        </p>
-        <p>
-          Czech Republic
-        </p>
+  <mat-card-content>
+    <div class="person-info-block">
+      <div>
+        <i class="material-icons">
+          phone
+        </i>
       </div>
+      <p>
+        +420 732 228 385
+      </p>
+    </div>
 
-      <div class="person-info-block">
-        <div>Phone</div>
-        <p>
-          +420 732 228 385
-        </p>
+    <div class="person-info-block">
+      <div>
+        <i class="material-icons">
+          email
+        </i>
       </div>
+      <p>
+        jiri.holubcz[at]gmail.com
+      </p>
+    </div>
 
-      <div class="person-info-block">
-        <div>E-mail</div>
-        <p>
-          jiri.holubcz[at]gmail.com
-        </p>
-      </div>
+    <div class="person-info-block">
+      <div>GitHub</div>
+      <p>
+        <a href="https://github.com/jHolub/" target="_blank">
+          https://github.com/jHolub/
+        </a>
+      </p>
+    </div>
 
-      <div class="person-info-block">
-        <div>GitHub</div>
-        <p>
-          <a href="https://github.com/jHolub/" target="_blank">
-            https://github.com/jHolub/
-          </a>
-        </p>
-      </div>
+    <div class="person-info-block">
+      <div>LinkedIn</div>
+      <p>
+        <a href="https://linkedin.com/in/jirka-holub-925ab814b" target="_blank">
+          https://linkedin.com/in/jirka-holub-925ab814b
+        </a>
+      </p>
+    </div>
+  </mat-card-content>
+</div>
 
-      <div class="person-info-block">
-        <div>LinkedIn</div>
-        <p>
-          <a href="https://linkedin.com/in/jirka-holub-925ab814b" target="_blank">
-            https://linkedin.com/in/jirka-holub-925ab814b
-          </a>
-        </p>
-      </div>
-    </mat-card-content>
-  </div>
-  <div>
-    <mat-card-header>
-      <mat-card-title>Programming Skills</mat-card-title>
-    </mat-card-header>
+<div>
+  <mat-card-header>
+    <mat-card-title>Programming Skills</mat-card-title>
+  </mat-card-header>
 
-    <mat-card-content fxLayout="row">
-      <mat-list fxFlex="50">
-        <mat-list-item>Ext JS, JavaScript, jQuery</mat-list-item>
-        <mat-list-item>Angular 2+, React JS, NGXS, RxJS</mat-list-item>
-        <mat-list-item>PHP, Symfony</mat-list-item>
-        <mat-list-item>Java, Python, R</mat-list-item>
-        <mat-list-item>PostgreSQL, MS-SQL</mat-list-item>
-        <mat-list-item>Git, npm, Visual Studio</mat-list-item>
-      </mat-list>
-      <mat-list fxFlex="50">
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 1, 1, 1, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i>
-        </mat-list-item>
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 1, 1, 0, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i>
-        </mat-list-item>
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 1, 1, 0, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i></mat-list-item
-        >
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 0, 0, 0, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i>
-        </mat-list-item>
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 1, 0, 0, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i>
-        </mat-list-item>
-      </mat-list>
-    </mat-card-content>
-  </div>
-  <div>
-    <mat-card-header>
-      <mat-card-title>Languages</mat-card-title>
-    </mat-card-header>
+  <mat-card-content>
+    <div class="person-info-block">
+      <div>Javascript</div>
+      <ul>
+        <li>
+          AJAX, JSON/XML, REST
+        </li>
+        <li>
+          Single Page Applications
+        </li>
+        <li>
+          TypeScript, ECMAScript
+        </li>
+        <li>
+          Angular (JS 1.x / 2+), NGXS, RxJS
+        </li>
+        <li>
+          React, Redux
+        </li>
+        <li>
+          Ext JS, jQuery
+        </li>
+      </ul>
+    </div>
+    <div class="person-info-block">
+      <div>PHP</div>
+      <ul>
+        <li>
+          OOP, MVC frameworks
+        </li>
+        <li>
+          nette, Symfony, Silex, Doctrine
+        </li>
+      </ul>
+    </div>
+    <div class="person-info-block">
+      <div>Database</div>
+      <ul>
+        <li>
+          PostgreSQL, pgAdmin
+        </li>
+        <li>
+          MySQL, MS-SQL, ORM
+        </li>
+      </ul>
+    </div>
+    <div class="person-info-block">
+      <div>GIS</div>
+      <ul>
+        <li>
+          QGis, PostGis, MapServer
+        </li>
+        <li>
+          OpenLayers, Leaflet, GeoEXT, Turf.js, JSTS
+        </li>
+      </ul>
+    </div>
+    <div class="person-info-block">
+      <div>Other</div>
+      <ul>
+        <li>
+          Git, cmd, npm, Visual Studio, NetBeans
+        </li>
+        <li>Python, Java, Delphi, R (beginner)</li>
+        <li>
+          Windows, Linux, Wordpress, Drupal, Apache2
+        </li>
+      </ul>
+    </div>
+  </mat-card-content>
+</div>
 
-    <mat-card-content fxLayout="row">
-      <mat-list fxFlex="50">
-        <mat-list-item>English</mat-list-item>
-        <mat-list-item>German</mat-list-item>
-      </mat-list>
-      <mat-list fxFlex="50">
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 1, 1, 0, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i>
-        </mat-list-item>
-        <mat-list-item>
-          <i class="material-icons" *ngFor="let star of [1, 0, 0, 0, 0]">
-            {{ star ? "lens" : "panorama_fish_eye" }}
-          </i>
-        </mat-list-item>
-      </mat-list>
-    </mat-card-content>
-  </div>
+<div>
+  <mat-card-header>
+    <mat-card-title>Languages</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <div class="person-info-block">
+      <p>
+        Czech: native speaker
+      </p>
+      <p>
+        English: very good command
+      </p>
+      <p>German: basic communication skills</p>
+    </div>
+  </mat-card-content>
+</div>
