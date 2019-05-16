@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { PersonComponent } from './core/person/person.component';
-
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card'; 
 import {MatDividerModule} from '@angular/material/divider'; 
 import {MatListModule} from '@angular/material/list';
+
+import { PersonComponent } from './core/person/person.component';
 import { InfoComponent } from './core/info/info.component'; 
 
 @NgModule({
